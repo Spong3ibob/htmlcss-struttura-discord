@@ -36,10 +36,46 @@
     background-color: #228b22;
     height: 900px;
 }
+.debug footer{
+    background-color: #23272a;
+    height: 625px;
+}
+.debug .col1{
+    background-color: #f08080;
+    height: 580px;
+}
+.debug .col2{
+    background-color: #20b2aa;
+    height: 580px;
+}
+.debug .col3{
+    background-color: #20b2aa;
+    height: 580px;
+}
+.debug .col4{
+    background-color: #20b2aa;
+    height: 580px;
+}
+.debug .col5{
+    background-color: #20b2aa;
+    height: 580px;
+}
+.debug .row1{
+    background-color: #7fffd4;
+    height: 78px;
+}
+.debug .bottone{
+    background-color: #ffb6c1;
+    padding: 3px;
+}
+
 /* common */
 .container{
     max-width: 1200px;
     margin: auto;
+}
+.row{
+    display: flex; 
 }
 
 /* header */
@@ -64,9 +100,7 @@ section:nth-child(2n){
 section{
     padding: 50px 0;
 }
-.row{
-    display: flex; 
-}
+
 .col-big{
     width: 60%;
 }
@@ -76,5 +110,34 @@ section{
 .col{
     width: 100%;
 }
-
 /* footer */
+.footer-big{
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.col1{
+    width: 30%;
+}
+.col2{
+    width: 17.5%;
+}
+.col3{
+    width: 17.5%;
+}
+.col4{
+    width: 17.5%;
+}
+.col5{
+    width: 17.5%;
+}
+.footer-small{
+    padding-top: 30px;
+    justify-content: end;  
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
