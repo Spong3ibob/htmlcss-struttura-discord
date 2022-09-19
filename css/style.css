@@ -10,8 +10,16 @@
 }
 .debug .header-small{
     background-color: #daa520;
-    height: 30px;
-    
+    height: 30px; 
+}
+.debug .header-big{ 
+    background-color: #00008b;
+    height: 500px;
+}
+.debug .slogan{
+    background-color: #ee82ee;
+    height: 400px;
+    width: 900px;
 }
 
 /* common */
@@ -21,15 +29,20 @@
 }
 
 /* header */
-header{
-    padding: 17px 0 16px 0;
+.header-small{
+    margin-top: 17px;
+    margin-bottom: 16px;
 }
 .header-small{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.header-big{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
