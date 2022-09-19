@@ -4,10 +4,34 @@
     margin: 0;
     padding: 0;
 }
+/* debug */
+.debug header{
+    background-color: #add8e6;
+}
+.debug .header-small{
+    background-color: #daa520;
+    height: 30px;
+    
+}
 
 /* common */
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
 
 /* header */
+header{
+    padding: 17px 0 16px 0;
+}
+.header-small{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
 
 /* main */
 
